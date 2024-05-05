@@ -440,4 +440,21 @@ input:checked + label .description {
     .stroke:nth-child(7){
         animation-delay: 0s;
     }
+
+    @media screen and (max-width:600px)
+    {
+        .wrapper {
+           display: grid;
+        }
+        
+        
     
+
+        
+
+
+    }
+
+   
+
+
