@@ -443,14 +443,28 @@ input:checked + label .description {
 
     @media screen and (max-width:600px)
     {
-        .wrapper {
-           display: grid;
+        .header{
+            display: flex;
         }
-        
+        .wrapper{
+            display: grid;
+            width: 670px;
+        }
+        .hero-text{
+            width: 670px;
+
+        }
+        .container{
+              width: 670px;
+        }
+
+        .player{
+            width: 670px;
+        }
+    
         
     
 
-        
 
 
     }
